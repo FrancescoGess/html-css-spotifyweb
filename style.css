@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+aside{
+    width: 250px;
+    height: 850px;
+    background-color: #000000;
+}
+
+#logo{
+    width: 70%;
+    padding: 20px;
+}
+
+#logo > a > svg{
+    width: 150px;
+}
+
+#main-dashboard{
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+}
+
+#main-dashboard > ul > li {
+    padding-block: 5px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#main-dashboard > ul > li > a{
+    text-decoration: none;
+    color: grey;  
+}
+
+#main-dashboard > ul > li > a > span{
+    padding: 10px;
+}
+
+#playlist{
+    padding-block: 20px;
+}
+
+#playlist > span{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.new-playlist{
+    width: 40px;
+    height: 40px;
+    margin-block: 10px;
+    background-color: grey;
+
+    position: relative;
+}
+
+
+.new-playlist > .svg-flex{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+
+.flex-playlist{
+    width: 100%;
+    height: 50px;
+    margin-block: 10px;
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-flex > span{
+    margin: 10px;
+    color: grey;
+}
+
+.playlist-added > ul > li > a{
+    color: grey;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.playlist-added > ul > li{
+    list-style-type: none;
+}
+
+.download-app{
+    position: relative;
+}
+
+.download-app{
+    height: 130px;
+}
+
+.container-download{
+   display: flex;
+    position: absolute;
+    bottom: 0;
+    padding-block: 10px;
+}
+
+.account{
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+    position: relative;
+    bottom: 10px;
+}
+
+.user{
+    position: absolute;
+    left: 8px;
+}
+
+.container-account{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name-text > span{
+    color: #fff;
+    font-weight: bold;
+}
