@@ -344,7 +344,6 @@ aside{
 }
 
 .flex-album{
-    
     width: 100%;
     height: 180px;
     display: flex;
@@ -363,10 +362,22 @@ aside{
 }
 
 .text-img{
+    padding-block: 10px;
     text-transform: uppercase;
     color: #fff;
+    text-align: center;
 }
 
 .text-img span{
     color: grey;
 }
+
+.container-second-title{
+    width: 100%;
+    height: 70px;
+}
+
+
+.container-second-title .title-container span{
+    color: grey;
+}]
